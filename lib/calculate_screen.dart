@@ -76,27 +76,27 @@ class _CalculateDTIState extends State<CalculateDTI> {
                         InputBox(controller: _creditCar, errorText: 'กรุณาระบุยอดชำระสินเชื่อรถยนต์ต่อเดือน', labelText: 'ยอดชำระสินเชื่อรถยนต์/เดือน',),
                         InputBox(controller: _creditOther, errorText: 'กรุณาระบุยอดชำระสินเชื่ออื่นต่อเดือน', labelText: 'ยอดชำระสินเชื่ออื่น/เดือน',inputAction: TextInputAction.done,),
                         SizedBox(height: 30),
-                        Container(
-                          width: size.width * 0.4,
-                          height: 50,
-                          child: RaisedButton(
-                            color: kBackgroundColor,
-                            elevation: 4,
-                            onPressed: (){
-                              reset();
-                            },
-                            child: Row(
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Icon(Icons.refresh_sharp,color: kPrimaryColor,),
-                                SizedBox(width: 10),
-                                Text('รีเซ็ต',style: TextStyle(fontSize: 28, color: kPrimaryColor),)
-                              ],
-                            ),
-                          ),
-                        ),
-                        SizedBox(height: 10),
+                        // Container(
+                        //   width: size.width * 0.4,
+                        //   height: 50,
+                        //   child: RaisedButton(
+                        //     color: kBackgroundColor,
+                        //     elevation: 4,
+                        //     onPressed: (){
+                        //       reset();
+                        //     },
+                        //     child: Row(
+                        //       crossAxisAlignment: CrossAxisAlignment.center,
+                        //       mainAxisSize: MainAxisSize.min,
+                        //       children: [
+                        //         Icon(Icons.refresh_sharp,color: kPrimaryColor,),
+                        //         SizedBox(width: 10),
+                        //         Text('รีเซ็ต',style: TextStyle(fontSize: 28, color: kPrimaryColor),)
+                        //       ],
+                        //     ),
+                        //   ),
+                        // ),
+                        // SizedBox(height: 10),
                         Container(
                           width: size.width * 0.4,
                           height: 50,
