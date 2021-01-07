@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget dashboardImage(Size size) => Column(
     children: [
-      Container(width: size.width * 0.9, child: Image.asset('assets/image_credit_dashboard.jpg')),
+      //Container(width: size.width * 0.9, child: Image.asset('assets/image_credit_dashboard.jpg')),
       SizedBox(height: 20),
       dashboardText()
     ],
